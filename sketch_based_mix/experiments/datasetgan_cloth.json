@@ -1,0 +1,21 @@
+{
+  "exp_dir": "../../hdd/wanqing/editGAN/model_interpreter/collar_cloth_2-class",
+  "batch_size": 64,
+  "category": "car",
+  "debug": false,
+  "dim": [512, 512, 6016],
+  "number_class": 2,
+  "testing_data_number_class": 2,
+  "max_training": 32,
+  "stylegan_ver": "3",
+  "annotation_data_from_w": true,
+  "annotation_mask_path":  "/home/linghuan/ngccli/3D-SDN-mount/styleganSeg/data/annotation_car_32_clean",
+  "testing_path": "",
+  "stylegan_checkpoint": "../../hdd/wanqing/editGAN/pretrained_styleGAN/collar_cloth_8385_300t.pkl",
+  "model_num": 10,
+    "upsample_mode":"bilinear",
+    "optimized_latent_path": {"train":  "./checkpoint/encoder_pretrain/training_embedding/",
+                            "test":  "" }
+}
+
+

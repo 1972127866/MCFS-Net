@@ -1,0 +1,21 @@
+{
+  "exp_dir": "../editGANresult/model_interpreter/cloth_360t_6-class_v2",
+  "batch_size": 64,
+  "category": "car",
+  "debug": false,
+  "dim": [256, 256, 4992],
+  "number_class": 6,
+  "testing_data_number_class": 6,
+  "max_training": 15,
+  "stylegan_ver": "3",
+  "annotation_data_from_w": true,
+  "annotation_mask_path":  "../editGANdata/train_data_for_360t_classifier_6-class_v2/cloth_360t_6-class_mask_latents",
+  "testing_path": "",
+  "stylegan_checkpoint": "viton_360t_s_fm.pkl",
+  "model_num": 10,
+    "upsample_mode":"bilinear",
+    "optimized_latent_path": {"train":  "../editGANdata/train_data_for_360t_classifier_6-class_v2/cloth_360t_6-class_images_s",
+                            "test":  "" }
+}
+
+

@@ -1,0 +1,12 @@
+Short Sleeve
+Long Sleeve
+Sleeveless
+Tank
+Puff Sleeve
+Half Sleeve
+
+Scoop Neck
+V Neck
+Turtleneck
+Square Neck
+Crew Neck

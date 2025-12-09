@@ -1,0 +1,21 @@
+{
+  "exp_dir": "../../hdd/wanqing/editGAN/collar_cloth_exam/model_interpreter/collar_cloth_3-class",
+  "batch_size": 64,
+  "category": "car",
+  "debug": false,
+  "dim": [256, 256, 4992],
+  "number_class": 3,
+  "testing_data_number_class": 3,
+  "max_training": 15,
+  "stylegan_ver": "3",
+  "annotation_data_from_w": true,
+  "annotation_mask_path":  "../../hdd/wanqing/editGAN/collar_cloth_exam/collar_cloth_8385_300t_sample_15/collar_cloth_8385_300t_sample_15mask",
+  "testing_path": "",
+  "stylegan_checkpoint": "../../hdd/wanqing/editGAN/pretrained_styleGAN/collar_cloth_8385_300t_s.pkl",
+  "model_num": 10,
+    "upsample_mode":"bilinear",
+    "optimized_latent_path": {"train":  "../../hdd/wanqing/editGAN/collar_cloth_exam/collar_cloth_8385_300t_sample_15/collar_cloth_8385_300t_sample_15latent",
+                            "test":  "" }
+}
+
+
